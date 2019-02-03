@@ -1,4 +1,4 @@
-package ru.andersen.gagarin.oop.inheritance;
+package ru.andersen.gagarin.oop.encapsulation;
 
 //пример инкапсуляции, поля класса объявлены как private, к ним нельзя обратиться напрямую
 //кроме поля height, использующегося в методах наследников и потому объявленного как protected.
@@ -7,10 +7,10 @@ public abstract class Room {
     private double length;
     protected double height;
 
-    Room() {
+     public Room() {
     }
 
-    Room(double width, double length, double height) {
+    public Room(double width, double length, double height) {
         this.width = width;
         this.length = length;
         this.height = height;
