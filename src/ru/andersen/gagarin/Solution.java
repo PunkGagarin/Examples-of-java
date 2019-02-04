@@ -1,4 +1,4 @@
-package ru.andersen.gagarin.oop;
+package ru.andersen.gagarin;
 
 
 import ru.andersen.gagarin.oop.inheritance.Office;

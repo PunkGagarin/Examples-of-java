@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e32016d2-463c-4bef-8e1d-741d23cd792f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ru/andersen/gagarin/annotation/InheritCount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/andersen/gagarin/annotation/InheritCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/andersen/gagarin/annotation/InheritNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/andersen/gagarin/oop/inheritance/Office.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/andersen/gagarin/oop/inheritance/Office.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/andersen/gagarin/oop/polymorphism/SmallOffice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/andersen/gagarin/oop/polymorphism/SmallOffice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/andersen/gagarin/reflection/AnnotationSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/andersen/gagarin/reflection/AnnotationSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/andersen/gagarin/oop/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/andersen/gagarin/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,7 +72,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/andersen/gagarin/oop/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/ru/andersen/gagarin/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
@@ -193,6 +190,7 @@
         <option value="$PROJECT_DIR$/src/ru/andersen/gagarin/annotation/Init.java" />
         <option value="$PROJECT_DIR$/src/ru/andersen/gagarin/oop/Solution.java" />
         <option value="$PROJECT_DIR$/src/ru/andersen/gagarin/reflection/AnnotationSearch.java" />
+        <option value="$PROJECT_DIR$/src/ru/andersen/gagarin/Solution.java" />
       </list>
     </option>
   </component>
@@ -225,44 +223,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gagarin" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Examples-of-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Examples-of-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gagarin" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Examples-of-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Examples-of-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gagarin" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Examples-of-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Examples-of-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gagarin" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="encapsulation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Examples-of-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Examples-of-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gagarin" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="inheritance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Examples-of-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Examples-of-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gagarin" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="polymorphism" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -272,7 +232,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549292941620" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549293156898" />
     <property name="last_opened_file_path" value="E:/Programs/Git/cmd/git.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -332,12 +292,12 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.andersen.gagarin.oop.Solution" />
+      <option name="MAIN_CLASS_NAME" value="ru.andersen.gagarin.Solution" />
       <module name="Examples-of-java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.andersen.gagarin.oop.*" />
+          <option name="PATTERN" value="ru.andersen.gagarin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,10 +349,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21255673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21255673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -401,7 +361,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -538,7 +498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/andersen/gagarin/oop/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/andersen/gagarin/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
