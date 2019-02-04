@@ -1,6 +1,7 @@
 package ru.andersen.gagarin.oop.inheritance;
 
 import ru.andersen.gagarin.annotation.InheritCount;
+import ru.andersen.gagarin.annotation.Init;
 import ru.andersen.gagarin.oop.encapsulation.Room;
 
 //пример наследования
@@ -31,7 +32,9 @@ public class Office extends Room {
         this.equipment = equipment;
     }
 
-    public static void main(String[] args) {
+    @Init
+    public void annotMethod(){
+        System.out.println("Вызов метода аннотации");
     }
 }
 
