@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e32016d2-463c-4bef-8e1d-741d23cd792f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ru/andersen/gagarin/annotation/Init.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/andersen/gagarin/reflection/AnnotationSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/andersen/gagarin/annotation/InheritCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/andersen/gagarin/annotation/InheritCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/andersen/gagarin/oop/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/andersen/gagarin/oop/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/andersen/gagarin/annotation/InheritCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/andersen/gagarin/annotation/InheritCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/andersen/gagarin/annotation/InheritNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/andersen/gagarin/oop/inheritance/Office.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/andersen/gagarin/oop/inheritance/Office.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/andersen/gagarin/oop/polymorphism/SmallOffice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/andersen/gagarin/oop/polymorphism/SmallOffice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/andersen/gagarin/reflection/AnnotationSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/andersen/gagarin/reflection/AnnotationSearch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/andersen/gagarin/oop/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1069#1070#0" expanded="true" />
@@ -92,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/andersen/gagarin/reflection/AnnotationSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="17">
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,7 +139,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/andersen/gagarin/annotation/InheritCount.java">
+        <entry file="file://$PROJECT_DIR$/src/ru/andersen/gagarin/annotation/InheritNumber.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="35" />
@@ -192,12 +191,12 @@
         <option value="$PROJECT_DIR$/src/ru/andersen/gagarin/oop/inheritance/Office.java" />
         <option value="$PROJECT_DIR$/src/ru/andersen/gagarin/annotation/InheritCount.java" />
         <option value="$PROJECT_DIR$/src/ru/andersen/gagarin/annotation/Init.java" />
-        <option value="$PROJECT_DIR$/src/ru/andersen/gagarin/reflection/AnnotationSearch.java" />
         <option value="$PROJECT_DIR$/src/ru/andersen/gagarin/oop/Solution.java" />
+        <option value="$PROJECT_DIR$/src/ru/andersen/gagarin/reflection/AnnotationSearch.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="458" />
     <option name="y" value="8" />
     <option name="width" value="1120" />
@@ -273,7 +272,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549292587943" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549292941620" />
     <property name="last_opened_file_path" value="E:/Programs/Git/cmd/git.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -393,7 +392,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21255673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21255673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -402,7 +401,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -515,7 +514,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/andersen/gagarin/annotation/InheritCount.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/andersen/gagarin/annotation/InheritNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="35" />
@@ -531,8 +530,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/andersen/gagarin/reflection/AnnotationSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="17">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -541,8 +540,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/andersen/gagarin/oop/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1069#1070#0" expanded="true" />

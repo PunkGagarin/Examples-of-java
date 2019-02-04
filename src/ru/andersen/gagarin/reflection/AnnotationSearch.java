@@ -1,6 +1,6 @@
 package ru.andersen.gagarin.reflection;
 
-import ru.andersen.gagarin.annotation.InheritCount;
+import ru.andersen.gagarin.annotation.InheritNumber;
 import ru.andersen.gagarin.annotation.Init;
 
 import java.lang.reflect.Method;
@@ -9,9 +9,9 @@ public class AnnotationSearch {
 
     //поиск нужной аннотации среди классов
     public static void inspectAnnotation(Class<?> annot){
-        if(annot.isAnnotationPresent(InheritCount.class)){
-            InheritCount inheritCount = annot.getAnnotation(InheritCount.class);
-            System.out.println(inheritCount.name());
+        if(annot.isAnnotationPresent(InheritNumber.class)){
+            InheritNumber inheritNumber = annot.getAnnotation(InheritNumber.class);
+            System.out.println(inheritNumber.name());
         }
         else{
             System.out.println("Doesn't have our @annotation");

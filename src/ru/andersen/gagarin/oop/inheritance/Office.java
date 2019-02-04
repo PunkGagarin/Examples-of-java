@@ -1,11 +1,11 @@
 package ru.andersen.gagarin.oop.inheritance;
 
-import ru.andersen.gagarin.annotation.InheritCount;
+import ru.andersen.gagarin.annotation.InheritNumber;
 import ru.andersen.gagarin.annotation.Init;
 import ru.andersen.gagarin.oop.encapsulation.Room;
 
 //пример наследования
-@InheritCount(name = "Первый наследник")
+@InheritNumber(name = "Первый наследник")
 public class Office extends Room {
     private int equipment;
 
